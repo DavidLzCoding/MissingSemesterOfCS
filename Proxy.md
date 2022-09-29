@@ -1,0 +1,22 @@
+## my proxy pac settings
+```text
+www.nodejs.cn,
+inst.eecs.berkeley.edu,
+catteachertalk.com,
+3dayseo.com,
+vbird.org,
+php.net,
+bdys01.com,
+1point3acres.com,
+khanacademy.org,
+github.com,
+reddit.com,
+wired.com,
+sciencedaily.com,
+daily.dev,
+stackify.com,
+flutter.dev,
+userapi.com,
+magazinelib.com,
+freemagazinepdf.com
+```
