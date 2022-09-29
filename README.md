@@ -9,3 +9,4 @@ Mastering these tools not only enables you to spend less time on figuring out ho
 - Lecture video resource link: https://www.bilibili.com/video/BV1x7411H7wa
 - test pycharm push
 - test without proxy push
+- test config user's name 
