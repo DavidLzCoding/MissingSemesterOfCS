@@ -163,6 +163,31 @@ We can use "ping" to check the connection between our computer and opposite webs
   - I think this website is the best linux tutorial in Chinese.
 - English Version: 
 
+## Data Wrangling
+Data Wrangling is mean for processing, transforming the original data.
+
+### Using grep to extract text data
+The img shows that we use "grep" to extract text line which contains "sshd". After that, using symbol ">" to output result into file "tsp.log".  
+
+![img_20.png](img_20.png)
+
+And, whatever, if you need to filter text data twice continuously.
+
+![img_21.png](img_21.png)
+
+### Using sed to do text search,replace,count,filter
+For example, at below img, 's/.*Disconnected from//' means that searching any text starts with any word and end with 'Disconnected from', and replace with blank.
+
+![img_22.png](img_22.png)
+
+In addition,pipeline symbol "|" can forward the result of sed to another text processing commands like "uniq", "wc", and so on.
+
+![img_23.png](img_23.png)
+
+### Please debug regexp with tools
+Regexp is too complicated to debug with your eyes, so, please debug it with regexp debugging tools,for example:
+- regex101.com
+
 ## Version Control Tools
 
 The version control tool can save you from disaster, help you collaborate with others, and quickly find and isolate problematic changes. 
