@@ -223,9 +223,25 @@ For example:
 
 ![img_29.png](img_29.png)
 
-### Use "git checkout" to move the head
+### Use "git checkout" to move the head of node
 If you want to change your current working nodes, you can use "git checkout". This git command will set node,which you want,as a head node and change contents to that time.
 
 ![img_30.png](img_30.png)
 
-....
+### Use "git diff" show difference between two commit version of codes.
+
+For example:
+
+![img_31.png](img_31.png)
+
+### Use "git branch" create a new branch 
+For example:
+
+![img_32.png](img_32.png)
+
+### Use "git merge" to merge branch into current branch
+
+For example, we check out to master branch, and merge cat branch into the master branch.
+
+![img_33.png](img_33.png)
+![img_34.png](img_34.png)
