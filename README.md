@@ -192,4 +192,33 @@ Regexp is too complicated to debug with your eyes, so, please debug it with rege
 
 The version control tool can save you from disaster, help you collaborate with others, and quickly find and isolate problematic changes. 
 
-..
+### Git graph that show how to branch and merge
+For example, we can do feature adding and bug fixing based on the same parent node,concurrently. After that, merging these two nodes into one node.
+
+![img_24.png](img_24.png)
+
+### New Git repo will create a hidden git folder 
+When a new git repository has been created, the git will help us create a hidden folder which is a git metadata store.
+
+![img_25.png](img_25.png)
+
+
+### Use "git status" to check what's going on git 
+For example:
+
+![img_26.png](img_26.png)
+
+### Use "git add" to add files which should be in the next snapshot
+For example, if you want file "hello.txt" be included in the next snapshot, you should input "git add hello.txt".
+
+![img_27.png](img_27.png)
+
+
+### Use "git log" to check all history commit operations
+For example:
+
+![img_28.png](img_28.png)
+
+### Use "git cat-file" to check git decimal version code
+
+![img_29.png](img_29.png)
