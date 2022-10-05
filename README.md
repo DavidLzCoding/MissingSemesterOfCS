@@ -227,3 +227,5 @@ For example:
 If you want to change your current working nodes, you can use "git checkout". This git command will set node,which you want,as a head node and change contents to that time.
 
 ![img_30.png](img_30.png)
+
+..
