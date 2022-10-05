@@ -223,4 +223,7 @@ For example:
 
 ![img_29.png](img_29.png)
 
-...
+### Use "git checkout" to move the head
+If you want to change your current working nodes, you can use "git checkout". This git command will set node,which you want,as a head node and change contents to that time.
+
+![img_30.png](img_30.png)
