@@ -246,4 +246,24 @@ For example, we check out to master branch, and merge cat branch into the master
 ![img_33.png](img_33.png)
 ![img_34.png](img_34.png)
 
-.
+
+## Debugging and Profiling
+
+A golden rule in programming is that code does not do what you expect it to do, but what you tell it to do. Bugs are gaps that between your expectation and your codes.
+
+- A first approach to debug a program is to add print statements around where you have detected the problem, and keep iterating until you have extracted enough information to understand what is responsible for the issue.
+
+- A second approach is to use logging in your program, instead of ad hoc print statements.
+
+
+### The log file place
+
+In UNIX systems, it is commonplace for programs to write their logs under /var/log.
+
+
+On linux, use "journalctl" to check system log:
+
+```shell
+# On Linux
+journalctl --since "1m ago" | grep Hello
+```
