@@ -267,3 +267,28 @@ On linux, use "journalctl" to check system log:
 # On Linux
 journalctl --since "1m ago" | grep Hello
 ```
+
+There are also some tools like lnav, that provide an improved presentation and navigation for log files.
+
+
+
+### The debuggers
+
+- Program language specified debugger:  
+When printf debugging is not enough you should use a debugger. For example: pdb for python, adb for Android, lldb for c/cpp.
+
+- System call debugger:  
+Even if what you are trying to debug is a black box binary there are tools that can help you with that. Whenever programs need to perform actions that only the kernel can, they use System Calls. There are commands that let you trace the syscalls your program makes. In Linux there’s strace and macOS and BSD have dtrace. 
+  
+strace example:
+![img_36.png](img_36.png)
+
+
+### The network tracer
+
+Under some circumstances, you may need to look at the network packets to figure out the issue in your program. Tools like **tcpdump** and **Wireshark** are network packet analyzers that let you read the contents of network packets and filter them based on different criteria.
+
+### The browser debuger
+
+For web development, the Chrome/Firefox developer tools are quite handy.
+![img_37.png](img_37.png)
